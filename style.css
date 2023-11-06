@@ -163,8 +163,9 @@ article {
   }
 
   .artikel {
-    flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
+    align-item: center;
   }
   #informasi {
     flex-wrap: wrap;
