@@ -163,7 +163,7 @@ article {
   }
 
   .artikel {
-    flex-direction: column;
+    flex-warp: warp;
     justify-content: center;
     align-item: center;
   }
