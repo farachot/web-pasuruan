@@ -163,10 +163,8 @@ article {
   }
 
   .artikel {
-    flex-direction: collumn;
-    flex-warp: warp;
-    justify-content: center;
-    align-item: center;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
   #informasi {
     flex-wrap: wrap;
