@@ -170,6 +170,9 @@ article {
   article {
     padding: 10px;
   }
+  #about {
+    padding: 10px;
+  }
   #informasi {
     flex-wrap: wrap;
   }
