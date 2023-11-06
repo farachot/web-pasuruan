@@ -1,0 +1,173 @@
+body {
+  margin: 0px;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e0f4ff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  flex-wrap: wrap;
+  margin-bottom: 0px;
+  position: sticky;
+  top: 0;
+  background-color: #87c4ff;
+}
+
+header div {
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li a:hover {
+  text-decoration: none;
+  color: #ffeed9;
+  transition: 0.5s;
+}
+
+#hero {
+  -webkit-text-fill-color: #ffeed9;
+  -webkit-text-stroke: 1px;
+  background-image: url("/img/bromo.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  height: 20em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+article {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 5em;
+}
+
+.artikel {
+  display: flex;
+  padding-top: 10px;
+  gap: 10px;
+  align-self: center;
+  margin-top: 25px;
+}
+
+.artikel img {
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.artikel div {
+  height: 160px;
+  overflow: auto;
+  background-color: #ffeed9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.artikel div h3 {
+  margin-top: 0px;
+}
+
+#about h1 {
+  text-align: center;
+}
+
+#about {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 2em;
+}
+
+#informasi {
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+}
+#informasi p {
+  background-color: #ffeed9;
+  padding: 20px;
+}
+
+#informasi img {
+  width: 200px;
+  border-radius: 5px;
+}
+
+#card {
+  width: 200px;
+  padding: 20px;
+  border: solid black;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #ffeed9;
+}
+
+#card p {
+  margin-top: 0px;
+  padding: 0px;
+}
+
+#footer {
+  background-color: #39a7ff;
+  color: #ffeed9;
+  text-align: center;
+  padding: 10px;
+  margin-top: 5em;
+}
+
+#footer button {
+  background-color: #ffeed9;
+  border: black;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#footer button:hover {
+  background-color: #87c4ff;
+  transition: 0.5s;
+  color: #ffeed9;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav ul {
+    padding: 0;
+  }
+
+  .artikel {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  #informasi {
+    flex-wrap: wrap;
+  }
+}
